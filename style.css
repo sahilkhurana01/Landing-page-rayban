@@ -2,7 +2,7 @@
     
     margin: 0;
     padding: 0;
-    font-family: "gilroy";
+    
     box-sizing: border-box;
 
 }
@@ -10,6 +10,7 @@
 html,body{
     width: 100%;
     height: 100%;
+    font-family: sans-serif;
 }
 
 #main{
@@ -35,7 +36,7 @@ html,body{
 
 
 #top{
-    pointer-events: all;
+    pointer-events: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -78,11 +79,11 @@ html,body{
 
 #nav a{
     color: #fff;
-    font-family: "gilroy";
     text-decoration: none;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 600;
+    pointer-events: all;
 
 }
 
@@ -100,7 +101,7 @@ html,body{
 }
 
 #heroleft{
-    min-width: 50%;
+    width: 50%;
     
    
 }
@@ -124,8 +125,10 @@ html,body{
     line-height: .9;
     font-family: "kajiro";
     color: #fff;
-    font-weight: 100;
-    font-size: 11vw;
+    font-weight: 80;
+    font-size: 9vw;
+    text-transform: uppercase;
+    position: absolute;
 
 }
 
