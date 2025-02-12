@@ -34,21 +34,42 @@ Shery.imageEffect("#back", {
   gooey: true,
 });
 
+var elems = document.querySelectorAll(".elem")
+elems.forEach((elem)=>{
+    var h1s = elem.querySelectorAll("h1");
+    var index = 0;
+    var animating = false;
 
-var h1s = document.querySelector("h1");
-var index = 0;
-document.querySelector("#main")
-.addEventListener("click", function(){
-    gsap.to(h1s[index], {
-        top: "-=100%",
-        ease: Expo.easeInOut,
-        duration: 1,
-    });
-
-    index++;
-    gsap.to(h1s[index], {
-        top: "-=100%",
-        ease: Expo.easeInOut,
-        duration: 1,
+    document.querySelector("#main").addEventListener("click", () => {
+        
+        if(!animating){
+            animating = true;
+            gsap.to(h1s[index], {
+                top: "-=100%",
+                ease: Expo.easeInOut,
+                duration: .5,
+                onComplete: (target) => {
+                    animating = false;
+                    gsap.set(target, { top: "100%" });
+                },
+                onCompleteParams: [h1s[index]], 
+            });
+    
+            if(index == h1s.length-1){
+                index = 0;
+            }else{
+                index++;
+            }
+    
+            gsap.to(h1s[index], {
+                top: "-=100%",
+                ease: Expo.easeInOut,
+                duration: 1,
+            });
+        }
     });
 });
+
+
+
+

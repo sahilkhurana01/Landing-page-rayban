@@ -88,7 +88,7 @@ html,body{
 }
 
 #hero{
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 0;
     transform: translate(0%,-50%); 
@@ -102,8 +102,6 @@ html,body{
 
 #heroleft{
     width: 50%;
-    
-   
 }
 
 #heroleft .elem{
@@ -114,12 +112,13 @@ html,body{
 }
 
 
-#heroleft .elem h1:nth-chlid(1){
+#heroleft .elem h1:nth-child(1){
     top: 0;
 }
 
 
 #heroleft .elem h1{
+    position: absolute;
     top: 100%;
     left: 0;
     line-height: .9;
@@ -128,7 +127,7 @@ html,body{
     font-weight: 80;
     font-size: 9vw;
     text-transform: uppercase;
-    position: absolute;
+    
 
 }
 
@@ -137,7 +136,9 @@ html,body{
     padding: .8vw 3vw;
     font-size: 3vw;
     margin-top: 2vw;
-    font-family:"kajiro" ;
+    font-family:"kajiro";
+    background-color: #fff;
+    border-radius: 3px;
 }
 
 #heroright{
