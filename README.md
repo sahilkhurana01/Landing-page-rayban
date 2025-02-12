@@ -34,7 +34,7 @@ This **Ray-Ban Luxe Sample Landing Page** is a visually immersive and interactiv
 
 ## 👨‍💻 Author
 - **Your Name**
-- 💎 GitHub: [YourGitHubProfile](https://github.com/YOUR_GITHUB_USERNAME)
+- 💎 GitHub: [sahilkhurana01](https://github.com/sahilkhurana01)
 
 ---
 
