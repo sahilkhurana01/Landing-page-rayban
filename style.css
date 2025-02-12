@@ -106,7 +106,7 @@ html,body{
 
 #heroleft .elem{
     position: relative;
-    height: 9vw;
+    height: 6.5vw;
     overflow: hidden;
     
 }
@@ -124,8 +124,8 @@ html,body{
     line-height: .9;
     font-family: "kajiro";
     color: #fff;
-    font-weight: 80;
-    font-size: 9vw;
+    font-weight: 40;
+    font-size: 6.8vw;
     text-transform: uppercase;
     
 
@@ -134,11 +134,12 @@ html,body{
 #heroleft button{
     pointer-events: all;
     padding: .8vw 3vw;
-    font-size: 3vw;
-    margin-top: 2vw;
+    font-size: 2vw;
+    font-weight: 400;
+    margin-top: 10px;
     font-family:"kajiro";
     background-color: #fff;
-    border-radius: 3px;
+    
 }
 
 #heroright{
@@ -162,7 +163,7 @@ html,body{
     height: 170px;
     margin-top: 20px;
     margin-bottom: 30px;
-    background-image: url(https://plus.unsplash.com/premium_photo-1710681610973-25eb8e2cc594?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://cdn.pixabay.com/photo/2020/09/29/13/27/woman-5612838_1280.jpg);
     
     background-size: cover;
     background-position: center;
