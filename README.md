@@ -5,6 +5,11 @@ This **Ray-Ban Luxe Sample Landing Page** is a visually immersive and interactiv
 
 ---
 
+## 📸 Preview  
+![Landing-page-rayban Screenshot](assets/) 
+
+---
+
 ## 🚀 Features
 - 🎨 **Modern UI/UX**: Stylish and responsive design for an elegant look.
 - 🔄 **SheryJS Integration**: Smooth and dynamic animations for an immersive feel.
@@ -33,7 +38,7 @@ This **Ray-Ban Luxe Sample Landing Page** is a visually immersive and interactiv
 ---
 
 ## 👨‍💻 Author
-- **Your Name**
+- **Your Name - Sahil Khurana(url)**
 - 💎 GitHub: [sahilkhurana01](https://github.com/sahilkhurana01)
 
 ---
