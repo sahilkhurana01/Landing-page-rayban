@@ -6,8 +6,9 @@ This **Ray-Ban Luxe Sample Landing Page** is a visually immersive and interactiv
 ---
 
 ## 📸 Preview  
-![Landing-page-rayban Screenshot](assets/) 
+![Landing-page-rayban Screenshot](assets/page%20sc%201.png) 
 
+![Landing-page-rayban Screenshot](assets/page%20sc%202.png) 
 ---
 
 ## 🚀 Features
