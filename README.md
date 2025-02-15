@@ -8,6 +8,8 @@ This **Ray-Ban Luxe Sample Landing Page** is a visually immersive and interactiv
 ## 📸 Preview  
 ![Landing-page-rayban Screenshot](assets/page%20sc%201.png) 
 
+## Open index.html in microsoft edge to view the landing page.
+
 ![Landing-page-rayban Screenshot](assets/page%20sc%202.png) 
 ---
 
@@ -32,8 +34,10 @@ This **Ray-Ban Luxe Sample Landing Page** is a visually immersive and interactiv
    ```sh
    git clone https://github.com/YOUR_GITHUB_USERNAME/RayBan-Landing-Page.git
    ```
-2. **Open `index.html` in a Browser**  
+2. **Open `index.html` in a Microsoft edge Browser** 
+   - Ensure the kajiro font is installed in your system.
    - Ensure all assets and scripts are in the correct directory.
+   - Open `index.html` in a Microsoft Edge browser to view the landing page.
    - Enjoy the interactive experience!
 
 ---
